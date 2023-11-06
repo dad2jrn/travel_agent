@@ -80,4 +80,4 @@ for index, message in enumerate(st.session_state["conversation"]):
     if role == "user":
         st.text_area("You", value=content, height=75, key=key)
     else:
-        st.text_area("AI", value=content, height=75, key=key)
+        st.text_area("Travel Agent", value=content, height=75, key=key)
